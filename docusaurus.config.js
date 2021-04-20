@@ -8,11 +8,11 @@ module.exports = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'kmakoto0212', // Usually your GitHub org/user name.
+  projectName: 'docusaurus-example', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'docusaurus-example',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -26,7 +26,7 @@ module.exports = {
         },
         { to: '/blog', label: 'Blog', position: 'left' },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/kmakoto0212/docusaurus-example',
           label: 'GitHub',
           position: 'right',
         },
@@ -40,12 +40,12 @@ module.exports = {
           items: [
             {
               label: 'Tutorial',
-              to: '/docs/intro',
+              to: 'https://docusaurus.io/docs/',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Docusaurus Community',
           items: [
             {
               label: 'Stack Overflow',
@@ -70,12 +70,12 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/kmakoto0212/docusaurus-example',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} kmakoto0212, Inc. Built with Docusaurus.`,
     },
   },
   presets: [
@@ -86,13 +86,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/kmakoto0212/docusaurus-example/edit/main/docs/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/kmakoto0212/docusaurus-example/edit/main/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
